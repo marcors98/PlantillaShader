@@ -2,7 +2,7 @@
 //Primera linea SIEMPRE es la version
 
 //Atribuos de entrada (vienen desde el Vertex shader)
-in vec fragmentColor;
+in vec4 fragmentColor;
 
 //Atributos d salida
 out vec4 salidaColor;

@@ -23,7 +23,7 @@ Shader::Shader(const char * rutaVertex, const char * rutaFragment) {
 	ifstream fragmentShaderStream(
 		rutaFragment, ios::in
 	);
-	if (fragmentShaderStream.is_open) {
+	if (fragmentShaderStream.is_open()) {
 		string linea;
 		while (getline(fragmentShaderStream, linea)) {
 			codigoFragmentShader += linea + "\n";

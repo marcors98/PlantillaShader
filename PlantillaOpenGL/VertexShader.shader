@@ -13,7 +13,7 @@ void main() {
 	//Es la posicion de salida del vertice
 	//
 	gl_Position.xyz = posicion;
-	gl_position.w = 1.0;
+	gl_Position.w = 1.0;
 
 	//Establecer valores de atributos de salida
 	fragmentColor = color;
